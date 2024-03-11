@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  margin: 2rem auto;
+  width: 200px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.2rem 0.5rem;
+}
+
+.header, .header-sub, h2 {
+  height: 2rem;
+}
+
+.header, .header-sub {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.signature {
+  text-align: right;
+}
+
+hr.thick {
+  border: 2px solid black;
+}
+
+hr {
+  /* border: 0.8px solid #000; */
+  margin: 0.5rem 0;
+  height: auto;
+}
+
+p {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 2rem;
+  padding: 0.15rem 0;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  height: 2rem;
+}
+
+.input-retouch {
+  max-width: 9rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-inputlabels-x3 {
+  justify-content: space-between;
+}
+
+.weather {
+  width: 100%;
+  /* margin-right: 2rem; */
+
+}
+.weather-icons>input{
+  margin: 0 0.3rem 0 0.5rem;
+}
+.weather-icons>i {
+  width: 100%;
+  padding-top: 0.5rem;
+  margin: 0 0.5rem 0 0;
+}

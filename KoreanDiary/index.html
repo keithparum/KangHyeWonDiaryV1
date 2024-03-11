@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Diary</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://css.gg/css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>내 일기</h1>
+
+  <main class="container">
+    <div class="header">
+      <h2 id="name" class="name">Keith's Diary</h2>
+      <div class="header-sub">
+        <h2>Date:</h2>
+        <input type="text" id="date" class="date">
+        <!-- <label for="date">Today!</label> -->
+      </div>
+    </div>
+    <hr class="thick">
+    <div class="flex flex-inputlabels-x3">
+      <div>
+        <label for="location">장</label>
+        <input type="text" id="location" class="input-retouch">
+      </div>
+      <div>
+        <label for="time">시간</label>
+        <input type="text" id="time" class="input-retouch">
+      </div>
+      <div>
+        <label for="BGM">BGM</label>
+        <input type="text" id="BGM" class="input-retouch">
+      </div>
+    </div>
+    <hr>
+    <div class="flex flex-inputlabels-x3">
+      <div class="flex">
+        <label for="weather" class="weather">날씨</label>
+        <!-- <input type="text" id="weather" class="input-retouch"> -->
+        <div class="flex weather-icons">
+          <input type="checkbox" id="checkbox" class="input-retouch">
+          <i class="fa-thin fa-sun-bright"></i>
+          <input type="checkbox" id="checkbox" class="input-retouch">
+          <i class="fa-thin fa-cloud-sun"></i>
+          <input type="checkbox" id="checkbox" class="input-retouch">
+          <i class="fa-thin fa-cloud"></i>
+          <input type="checkbox" id="checkbox" class="input-retouch">
+          <i class="fa-thin fa-wind"></i>
+          <input type="checkbox" id="checkbox" class="input-retouch">
+          <i class="fa-thin fa-cloud-rain"></i>
+          <input type="checkbox" id="checkbox" class="input-retouch">
+          <i class="fa-thin fa-cloud-snow"></i>
+        </div>
+      </div>
+
+      <div>
+        <label for="mood">기분</label>
+        <input type="text" id="mood" class="input-retouch">
+      </div>
+    </div>
+    <hr>
+    <div class="flex flex-inputlabels-x3">
+      <div>
+        <label for="breakfast">아침</label>
+        <input type="text" id="breakfast" class="input-retouch">
+      </div>
+      <div>
+        <label for="lunch">점심</label>
+        <input type="text" id="lunch" class="input-retouch">
+      </div>
+      <div>
+        <label for="dinner">저녁</label>
+        <input type="text" id="dinner" class="input-retouch">
+      </div>
+    </div>
+    <hr>
+    <div class="flex flex-inputlabels-x3">
+      <div>
+        <label for="drink-and-dessert">음료 및 디저트</label>
+        <input type="text" id="drink-and-dessert" class="input-retouch">
+      </div>
+    </div>
+    <hr>
+      <label for="clothing">오늘의 의상</label>
+    <hr>
+      <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+      </canvas>
+    <hr>
+    <div class="">
+      <label for="memories">오늘 기억하는 3 가지</label>
+    </div>
+    <hr>
+    <div class="memories-checkbox">
+      <div>
+        <input type="checkbox" id="checkbox" class="input-retouch">
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox" class="input-retouch">
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox" class="input-retouch">
+      </div>
+    </div>
+    <hr>
+    <div class="flex-inputlabels-x3">
+      <div>
+        <label for="plans">퇴근 후 계획</label>
+      </div>
+    </div>
+    <hr>
+      <div>
+        <input type="checkbox" id="checkbox" class="input-retouch">
+      </div>
+    <hr>
+    <hr class="thick">
+    <div class="signature">
+      <h2 id="name" class="name">Keith's Diary</h2>
+    </div>
+  </main>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
